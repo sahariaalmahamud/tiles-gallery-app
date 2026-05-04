@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tile_101",
+    "title": "Aqua Breeze Ceramic Tile",
+    "description": "Cool aqua-toned ceramic tile with a smooth satin surface. Creates a peaceful and refreshing atmosphere, perfect for modern bathrooms. Moisture-resistant and easy to maintain.",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "category": "ceramic",
+    "price": 47.25,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_102",
+    "title": "Carrara Luxe Marble Tile",
+    "description": "Elegant white marble tile featuring subtle gray veining. Ideal for premium interiors and luxury flooring. Polished finish enhances brightness and sophistication.",
+    "image": "https://images.unsplash.com/photo-1582582494700-3d0c7a3c2c7b",
+    "category": "marble",
+    "price": 110.00,
+    "currency": "USD",
+    "dimensions": "80x80 cm",
+    "material": "Marble",
+    "inStock": true
+  },
+  {
+    "id": "tile_103",
+    "title": "Obsidian Black Granite Tile",
+    "description": "Deep black granite tile with a glossy polished surface. Extremely durable and scratch-resistant, ideal for kitchens and high-traffic areas.",
+    "image": "https://images.unsplash.com/photo-1618221710646-0e9a49dfe7e4",
+    "category": "granite",
+    "price": 88.40,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Granite",
+    "inStock": true
+  },
+  {
+    "id": "tile_104",
+    "title": "Natural Walnut Wood Tile",
+    "description": "Wood-look porcelain tile with rich walnut textures. Combines the warmth of wood with the durability of tile. Perfect for living rooms and corridors.",
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+    "category": "wood",
+    "price": 65.90,
+    "currency": "USD",
+    "dimensions": "120x20 cm",
+    "material": "Porcelain",
+    "inStock": true
+  },
+  {
+    "id": "tile_105",
+    "title": "Ivory Shine Ceramic Tile",
+    "description": "Glossy ivory ceramic tile that reflects light beautifully. Makes small spaces appear larger and brighter. Ideal for contemporary interiors.",
+    "image": "https://images.unsplash.com/photo-1588854337115-1c67d9247e4d",
+    "category": "ceramic",
+    "price": 41.70,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_106",
+    "title": "Slate Matte Gray Tile",
+    "description": "Minimalist gray tile with a soft matte finish. Designed for slip resistance, making it perfect for kitchens and bathrooms.",
+    "image": "https://images.unsplash.com/photo-1598300056393-4aac492f4344",
+    "category": "porcelain",
+    "price": 56.10,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Porcelain",
+    "inStock": true
+  },
+  {
+    "id": "tile_107",
+    "title": "Vivid Glass Mosaic Tile",
+    "description": "Colorful glass mosaic tile that adds a vibrant artistic touch. Perfect for kitchen backsplashes and decorative walls.",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6",
+    "category": "mosaic",
+    "price": 69.95,
+    "currency": "USD",
+    "dimensions": "30x30 cm",
+    "material": "Glass",
+    "inStock": true
+  },
+  {
+    "id": "tile_108",
+    "title": "Terracotta Rustic Tile",
+    "description": "Earth-toned rustic tile inspired by traditional clay finishes. Ideal for patios and outdoor settings. Durable and weather-resistant.",
+    "image": "https://images.unsplash.com/photo-1592928302636-c83cf1e1c887",
+    "category": "ceramic",
+    "price": 46.80,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_109",
+    "title": "Desert Beige Sandstone Tile",
+    "description": "Warm beige sandstone tile with natural texture. Blends seamlessly with neutral decor and works for both indoor and outdoor spaces.",
+    "image": "https://images.unsplash.com/photo-1604014237800-1c9102c219da",
+    "category": "stone",
+    "price": 53.25,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Sandstone",
+    "inStock": true
+  },
+  {
+    "id": "tile_110",
+    "title": "Pathway Stone Texture Tile",
+    "description": "Stone-inspired textured tile designed for outdoor landscaping. Provides strong grip and durability in all weather conditions.",
+    "image": "https://images.unsplash.com/photo-1600585152915-d208bec867a1",
+    "category": "stone",
+    "price": 70.30,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Concrete",
+    "inStock": true
+  }
+]

@@ -58,18 +58,20 @@ const Search = ({ tiles }) => {
               <label className="block text-sm font-bold text-[#0b0031] mb-3 uppercase tracking-wide">
                 🔍 Search Tiles
               </label>
-              <Input
-                onChange={(e) => setSearch(e.target.value)}
-                value={search}
-                className="w-full text-lg"
-                placeholder="Search by name, pattern, or style..."
-                size="lg"
-                startContent={
-                  <svg className="w-6 h-6 text-[#FF653F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="relative">
+                <div className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#FF653F]">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
-                }
-              />
+                </div>
+                <Input
+                  onChange={(e) => setSearch(e.target.value)}
+                  value={search}
+                  className="w-full text-lg pl-12"
+                  placeholder="Search by name, pattern, or style..."
+                  size="lg"
+                />
+              </div>
             </div>
             <div className="flex gap-3 w-full md:w-auto">
               <Button

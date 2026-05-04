@@ -3,6 +3,7 @@ import TilesCard from "@/Components/Ui/TilesCard";
 import { tilesData } from "@/lib/fetchData";
 import { Button } from "@heroui/react";
 import Link from "next/link";
+import { FaStar, FaArrowRight  } from "react-icons/fa";
 
 const HomePage = async () => {
   const tiles = await tilesData();
@@ -26,8 +27,8 @@ const HomePage = async () => {
           {/* Section Header */}
           <div className="text-center space-y-6 mb-16">
             <div className="inline-block">
-              <span className="inline-block text-[#FF653F] font-bold text-sm tracking-widest uppercase bg-[#FF653F]/10 px-4 py-2 rounded-full">
-                ✨ Curated Selection
+              <span className=" text-[#FF653F] font-bold text-sm tracking-widest uppercase bg-[#FF653F]/10 px-4 py-2 rounded-full flex gap-2 items-center justify-center">
+                <FaStar /> <span>Curated Selection</span>
               </span>
             </div>
             <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl text-[#0b0031] leading-tight">
@@ -54,7 +55,7 @@ const HomePage = async () => {
           <div className="flex justify-center">
             <Link href={"/all-tiles"}>
               <Button className="bg-linear-to-r from-[#FF653F] to-[#FF8555] text-white font-bold px-12 py-7 text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg">
-                Explore All Collections →
+                Explore All Collections <FaArrowRight />
               </Button>
             </Link>
           </div>
@@ -62,7 +63,7 @@ const HomePage = async () => {
       </section>
 
       {/* Premium Features Section */}
-      <section className="py-20 md:py-28 px-4 md:px-6 bg-linear-to-br from-[#0b0031] via-[#1a0047] to-[#0b0031] text-white relative overflow-hidden">
+      <section className="py-20 md:py-28 px-4 md:px-6 bg-linear-to-br from-[#0b0031] via-[#1a0047] to-[#0b0031] text-white relative overflow-hidden rounded-3xl">
         {/* Decorative Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 left-10 w-72 h-72 bg-[#FF653F] rounded-full blur-3xl"></div>
@@ -148,7 +149,7 @@ const HomePage = async () => {
               </div>
               <Link href={"/all-tiles"} className="shrink-0">
                 <Button className="bg-white text-[#FF653F] font-bold px-8 py-4 text-lg hover:bg-gray-100 hover:shadow-xl hover:scale-105 transition-all duration-300 rounded-lg">
-                  Explore Now →
+                  Explore Now <FaArrowRight />
                 </Button>
               </Link>
             </div>
@@ -161,7 +162,7 @@ const HomePage = async () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-4 mb-16">
             <span className="inline-block text-[#FF653F] font-bold text-sm tracking-widest uppercase bg-[#FF653F]/10 px-4 py-2 rounded-full">
-              ⭐ Customer Reviews
+              Customer Reviews
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-[#0b0031]">Trusted by Thousands</h2>
           </div>
@@ -187,7 +188,7 @@ const HomePage = async () => {
               <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100">
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <span key={i} className="text-[#FF653F] text-xl">★</span>
+                    <span key={i} className="text-[#FF653F] text-xl"><FaStar /></span>
                   ))}
                 </div>
                 <p className="text-gray-700 mb-6 text-lg leading-relaxed">{testimonial.text}</p>

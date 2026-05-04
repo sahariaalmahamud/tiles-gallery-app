@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { IoLogoLinkedin } from "react-icons/io";
+import { IoLogoLinkedin, IoMdCheckmark } from "react-icons/io";
 import Link from "next/link";
 
 const Footer = () => {
@@ -75,22 +75,22 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3 text-sm text-gray-300">
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                 Dhaka
+                Dhaka
               </li>
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                 Chittagong
+                Chittagong
               </li>
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                 Sylhet
+                Sylhet
               </li>
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                 Khulna
+                Khulna
               </li>
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                 Rajshahi
+                Rajshahi
               </li>
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                 Rangpur
+                Rangpur
               </li>
             </ul>
           </div>
@@ -123,7 +123,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 text-sm text-gray-400">
           <div className="text-center md:text-left">
-            <p>© 2024 Tiles Gallery. All rights reserved. | Crafted with <span className="text-[#FF653F]"></span></p>
+            <p>© 2024 Tiles Gallery. All rights reserved. | Crafted with Saharia Al-Mahamud<span className="text-[#FF653F]"></span></p>
           </div>
           <div className="flex gap-8 flex-wrap justify-center">
             <Link href="#" className="hover:text-[#FF653F] transition-colors font-medium">Privacy Policy</Link>
@@ -134,8 +134,9 @@ const Footer = () => {
 
         {/* Premium Badge */}
         <div className="mt-8 text-center">
-          <div className="inline-block bg-white/5 border border-[#FF653F]/30 rounded-full px-6 py-2 text-xs font-semibold text-[#FF653F] uppercase tracking-widest">
-            ✓ Certified Premium Quality
+          <div className="inline-flex items-center gap-2 bg-white/5 border border-[#FF653F]/30 rounded-full px-6 py-2 text-xs font-semibold text-[#FF653F] uppercase tracking-widest">
+            <IoMdCheckmark className="text-sm" />
+            <span>Certified Premium Quality</span>
           </div>
         </div>
       </div>

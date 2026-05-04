@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 
         <main className="max-w-310 mx-auto">{children}</main>
 
-        <ToastProvider></ToastProvider>
+        {/* <ToastProvider></ToastProvider> */}
 
         <Footer></Footer>
       </body>

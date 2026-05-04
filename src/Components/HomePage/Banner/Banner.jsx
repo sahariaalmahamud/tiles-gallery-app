@@ -42,7 +42,7 @@ const Banner = () => {
           clickable: true,
           dynamicBullets: true,
         }}
-        className="h-[500px] md:h-[650px] lg:h-[700px]"
+        className="h-125 md:h-162.5 lg:h-175"
       >
         {bannerImages.map((img, i) => (
           <SwiperSlide key={i} className="relative group">
@@ -54,8 +54,8 @@ const Banner = () => {
               priority={i === 0}
             />
             {/* Multi-layered gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 group-hover:via-black/30 transition-colors duration-500"></div>
-            <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent opacity-50"></div>
+            <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-black/20 group-hover:via-black/30 transition-colors duration-500"></div>
+            <div className="absolute inset-0 bg-linear-to-r from-black/50 to-transparent opacity-50"></div>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -74,7 +74,7 @@ const Banner = () => {
           <div className="space-y-4">
             <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl leading-tight animate-in fade-in slide-in-from-bottom-8 duration-1000">
               Elevate Your <br />
-              <span className="bg-gradient-to-r from-[#FF653F] via-[#FF8555] to-[#FFB88C] bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-[#FF653F] via-[#FF8555] to-[#FFB88C] bg-clip-text text-transparent">
                 Space With Grace
               </span>
             </h1>
@@ -86,7 +86,7 @@ const Banner = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">
             <Link href={"/all-tiles"}>
-              <Button className="bg-gradient-to-r from-[#FF653F] to-[#FF8555] text-white font-bold px-10 py-7 text-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 rounded-xl">
+              <Button className="bg-linear-to-r from-[#FF653F] to-[#FF8555] text-white font-bold px-10 py-7 text-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 rounded-xl">
                 <span>Explore Collections</span>
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />

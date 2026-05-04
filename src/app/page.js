@@ -53,7 +53,7 @@ const HomePage = async () => {
           {/* CTA Button */}
           <div className="flex justify-center">
             <Link href={"/all-tiles"}>
-              <Button className="bg-gradient-to-r from-[#FF653F] to-[#FF8555] text-white font-bold px-12 py-7 text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg">
+              <Button className="bg-linear-to-r from-[#FF653F] to-[#FF8555] text-white font-bold px-12 py-7 text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg">
                 Explore All Collections →
               </Button>
             </Link>
@@ -62,7 +62,7 @@ const HomePage = async () => {
       </section>
 
       {/* Premium Features Section */}
-      <section className="py-20 md:py-28 px-4 md:px-6 bg-gradient-to-br from-[#0b0031] via-[#1a0047] to-[#0b0031] text-white relative overflow-hidden">
+      <section className="py-20 md:py-28 px-4 md:px-6 bg-linear-to-br from-[#0b0031] via-[#1a0047] to-[#0b0031] text-white relative overflow-hidden">
         {/* Decorative Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 left-10 w-72 h-72 bg-[#FF653F] rounded-full blur-3xl"></div>
@@ -80,11 +80,11 @@ const HomePage = async () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {/* Feature 1 */}
             <div className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#FF653F]/20 to-transparent rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-[#FF653F]/20 to-transparent rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:border-[#FF653F]/50 transition-colors duration-300">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#FF653F] to-[#FF8555] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-14 h-14 bg-linear-to-br from-[#FF653F] to-[#FF8555] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.8１.588-１.８１h3.46１a１ １ ０ ００.９５１-.６９l１.０７-３.２９２z" />
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold mb-3">Premium Quality</h3>
@@ -96,9 +96,9 @@ const HomePage = async () => {
 
             {/* Feature 2 */}
             <div className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#FF653F]/20 to-transparent rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-[#FF653F]/20 to-transparent rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:border-[#FF653F]/50 transition-colors duration-300">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#FF653F] to-[#FF8555] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-14 h-14 bg-linear-to-br from-[#FF653F] to-[#FF8555] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
@@ -112,9 +112,9 @@ const HomePage = async () => {
 
             {/* Feature 3 */}
             <div className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#FF653F]/20 to-transparent rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-[#FF653F]/20 to-transparent rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:border-[#FF653F]/50 transition-colors duration-300">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#FF653F] to-[#FF8555] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-14 h-14 bg-linear-to-br from-[#FF653F] to-[#FF8555] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M8.16 5.314l4.897-.795 2.201 4.466 4.897-.795-2.201 4.466 2.201 4.466-4.897-.795-2.201 4.466-4.897-.795 2.201-4.466-2.201-4.466 4.897.795z" />
                   </svg>
@@ -132,7 +132,7 @@ const HomePage = async () => {
       {/* Latest Collections Banner */}
       <section className="py-16 md:py-20 px-4 md:px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#FF653F] via-[#FF8555] to-[#FFB88C] text-white shadow-2xl">
+          <div className="relative overflow-hidden rounded-3xl bg-linear-to-r from-[#FF653F] via-[#FF8555] to-[#FFB88C] text-white shadow-2xl">
             {/* Decorative shapes */}
             <div className="absolute -top-20 -right-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
             <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
@@ -140,13 +140,13 @@ const HomePage = async () => {
             <div className="relative z-10 p-10 md:p-16 flex flex-col md:flex-row items-center justify-between gap-8">
               <div className="flex-1 space-y-4">
                 <h3 className="text-3xl md:text-4xl font-bold leading-tight">
-                  Discover This Season's <br /> Latest Designs
+                  Discover This Season&apos;s <br /> Latest Designs
                 </h3>
                 <p className="text-lg opacity-90 max-w-lg">
                   Explore our newest collection featuring sustainable materials and innovative patterns that redefine modern aesthetics.
                 </p>
               </div>
-              <Link href={"/all-tiles"} className="flex-shrink-0">
+              <Link href={"/all-tiles"} className="shrink-0">
                 <Button className="bg-white text-[#FF653F] font-bold px-8 py-4 text-lg hover:bg-gray-100 hover:shadow-xl hover:scale-105 transition-all duration-300 rounded-lg">
                   Explore Now →
                 </Button>
@@ -190,7 +190,7 @@ const HomePage = async () => {
                     <span key={i} className="text-[#FF653F] text-xl">★</span>
                   ))}
                 </div>
-                <p className="text-gray-700 mb-6 text-lg leading-relaxed">"{testimonial.text}"</p>
+                <p className="text-gray-700 mb-6 text-lg leading-relaxed">{testimonial.text}</p>
                 <div>
                   <p className="font-bold text-[#0b0031]">{testimonial.name}</p>
                   <p className="text-[#FF653F] text-sm">{testimonial.role}</p>

@@ -74,7 +74,7 @@ const Search = ({ tiles }) => {
             <div className="flex gap-3 w-full md:w-auto">
               <Button
                 onClick={handleSearchBtn}
-                className="bg-gradient-to-r from-[#FF653F] to-[#FF8555] text-white font-bold py-3 px-8 hover:shadow-lg hover:scale-105 transition-all duration-300 flex-1 md:flex-initial rounded-lg"
+                className="bg-linear-to-r from-[#FF653F] to-[#FF8555] text-white font-bold py-3 px-8 hover:shadow-lg hover:scale-105 transition-all duration-300 flex-1 md:flex-initial rounded-lg"
               >
                 Search
               </Button>
@@ -100,7 +100,7 @@ const Search = ({ tiles }) => {
                 onClick={() => handleCategoryFilter(category)}
                 className={`px-6 py-2.5 rounded-lg font-bold transition-all duration-300 ${
                   selectedCategory === category
-                    ? "bg-gradient-to-r from-[#FF653F] to-[#FF8555] text-white shadow-lg scale-105"
+                    ? "bg-linear-to-r from-[#FF653F] to-[#FF8555] text-white shadow-lg scale-105"
                     : "bg-gray-100 text-[#0b0031] hover:border-[#FF653F] border-2 border-transparent hover:bg-[#FF653F]/5"
                 }`}
               >
@@ -112,7 +112,7 @@ const Search = ({ tiles }) => {
       </div>
 
       {/* Results Info */}
-      <div className="flex justify-between items-center bg-gradient-to-r from-[#FF653F]/5 to-[#FF8555]/5 rounded-2xl p-6 border border-[#FF653F]/20">
+      <div className="flex justify-between items-center bg-linear-to-r from-[#FF653F]/5 to-[#FF8555]/5 rounded-2xl p-6 border border-[#FF653F]/20">
         <div className="space-y-1">
           <p className="text-gray-600 text-sm font-medium">Results Found</p>
           <p className="text-2xl font-bold text-[#0b0031]">
@@ -141,7 +141,7 @@ const Search = ({ tiles }) => {
           </div>
         </div>
       ) : (
-        <div className="text-center py-24 bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl border-2 border-dashed border-gray-300">
+        <div className="text-center py-24 bg-linear-to-br from-gray-50 to-gray-100 rounded-3xl border-2 border-dashed border-gray-300">
           <div className="space-y-6">
             <svg className="w-24 h-24 mx-auto text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -152,7 +152,7 @@ const Search = ({ tiles }) => {
             </div>
             <Button
               onClick={handleShowAll}
-              className="bg-gradient-to-r from-[#FF653F] to-[#FF8555] text-white font-bold px-8 py-4 text-lg hover:shadow-lg hover:scale-105 transition-all duration-300 rounded-lg"
+              className="bg-linear-to-r from-[#FF653F] to-[#FF8555] text-white font-bold px-8 py-4 text-lg hover:shadow-lg hover:scale-105 transition-all duration-300 rounded-lg"
             >
               View All Tiles
             </Button>

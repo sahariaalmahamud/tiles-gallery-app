@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-[#0b0031] via-[#1a0047] to-black text-white relative overflow-hidden">
+    <footer className="bg-linear-to-br from-[#0b0031] via-[#1a0047] to-black text-white relative overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#FF653F] rounded-full blur-3xl"></div>
@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="space-y-4">
               <Link href="/" className="inline-block hover:opacity-80 transition-opacity">
                 <h2 className="font-bold text-3xl md:text-4xl">
-                  <span className="bg-gradient-to-r from-[#FF653F] to-[#FF8555] bg-clip-text text-transparent">Tiles</span>
+                  <span className="bg-linear-to-r from-[#FF653F] to-[#FF8555] bg-clip-text text-transparent">Tiles</span>
                   <span className="text-white ml-2">Gallery</span>
                 </h2>
               </Link>
@@ -75,19 +75,19 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3 text-sm text-gray-300">
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                📍 Dhaka
+                 Dhaka
               </li>
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                📍 Chittagong
+                 Chittagong
               </li>
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                📍 Sylhet
+                 Sylhet
               </li>
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                📍 Khulna
+                 Khulna
               </li>
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
-                📍 Rajshahi
+                 Rajshahi
               </li>
             </ul>
           </div>
@@ -99,15 +99,15 @@ const Footer = () => {
             </h3>
             <div className="text-sm text-gray-300 space-y-4">
               <div className="hover:translate-x-1 transition-transform">
-                <p className="font-semibold text-white mb-1">☎️ Hotline</p>
+                <p className="font-semibold text-white mb-1"> Hotline</p>
                 <p className="text-sm">+88 0165588 00-1058</p>
               </div>
               <div className="hover:translate-x-1 transition-transform">
-                <p className="font-semibold text-white mb-1">📧 Email</p>
+                <p className="font-semibold text-white mb-1"> Email</p>
                 <p><Link href="mailto:tilesgallery@gmail.com.bd" className="hover:text-[#FF653F] transition-colors">tilesgallery@gmail.com.bd</Link></p>
               </div>
               <div className="hover:translate-x-1 transition-transform">
-                <p className="font-semibold text-white mb-1">🏭 Factory</p>
+                <p className="font-semibold text-white mb-1"> Factory</p>
                 <p className="text-sm">Gazipur, Bangladesh</p>
               </div>
             </div>
@@ -120,7 +120,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 text-sm text-gray-400">
           <div className="text-center md:text-left">
-            <p>© 2024 Tiles Gallery. All rights reserved. | Crafted with <span className="text-[#FF653F]">❤️</span></p>
+            <p>© 2024 Tiles Gallery. All rights reserved. | Crafted with <span className="text-[#FF653F]"></span></p>
           </div>
           <div className="flex gap-8 flex-wrap justify-center">
             <Link href="#" className="hover:text-[#FF653F] transition-colors font-medium">Privacy Policy</Link>

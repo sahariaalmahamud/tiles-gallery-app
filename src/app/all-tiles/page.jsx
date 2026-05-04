@@ -17,7 +17,7 @@ const AllTilesPage = async () => {
         <div className="space-y-6 text-center mb-16">
           <div className="inline-block">
             <span className="inline-block text-[#FF653F] font-bold text-sm tracking-widest uppercase bg-[#FF653F]/10 px-4 py-2 rounded-full">
-              🎨 Complete Collection
+               Complete Collection
             </span>
           </div>
           <div className="space-y-4">

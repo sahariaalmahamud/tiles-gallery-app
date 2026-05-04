@@ -6,7 +6,7 @@ const TilesCard = ({ tile }) => {
   return (
     <Link href={`/tiles-details/${tile.id}`}>
       <Card className="group border border-gray-200 hover:border-[#FF653F] hover:shadow-2xl transition-all duration-500 rounded-2xl overflow-hidden bg-white cursor-pointer h-full transform hover:-translate-y-2">
-        <div className="relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
+        <div className="relative overflow-hidden bg-linear-to-br from-gray-50 to-gray-100">
           <Image
             src={tile.image}
             alt={tile.title}
@@ -16,11 +16,11 @@ const TilesCard = ({ tile }) => {
           />
 
           {/* Overlay on hover */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
             <p className="text-white font-semibold text-sm">View Details</p>
           </div>
 
-          <Chip className="absolute top-4 right-4 bg-gradient-to-r from-[#FF653F] to-[#FF8555] text-white font-bold shadow-lg">
+          <Chip className="absolute top-4 right-4 bg-linear-to-r from-[#FF653F] to-[#FF8555] text-white font-bold shadow-lg">
             {tile.category}
           </Chip>
 
@@ -62,11 +62,11 @@ const TilesCard = ({ tile }) => {
           <div className="pt-4 border-t border-gray-100 flex items-center justify-between gap-4">
             <div>
               <p className="text-xs text-gray-500 mb-1">Price</p>
-              <p className="text-2xl font-bold bg-gradient-to-r from-[#FF653F] to-[#FF8555] bg-clip-text text-transparent">
+              <p className="text-2xl font-bold bg-linear-to-r from-[#FF653F] to-[#FF8555] bg-clip-text text-transparent">
                 ${tile.price}
               </p>
             </div>
-            <Button className="flex-1 bg-gradient-to-r from-[#FF653F] to-[#FF8555] text-white font-bold hover:shadow-lg hover:scale-105 transition-all duration-300 rounded-lg group-hover:gap-2">
+            <Button className="flex-1 bg-linear-to-r from-[#FF653F] to-[#FF8555] text-white font-bold hover:shadow-lg hover:scale-105 transition-all duration-300 rounded-lg group-hover:gap-2">
               <span>Details</span>
               <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

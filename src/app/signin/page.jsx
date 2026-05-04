@@ -44,7 +44,7 @@ const SignInPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-12 bg-gradient-to-br from-gray-50 to-gray-100">
+    <div className="min-h-screen flex items-center justify-center px-4 py-12 bg-linear-to-br from-gray-50 to-gray-100">
       <div className="w-full max-w-md">
         {/* Header */}
         <div className="text-center mb-10 space-y-3">
@@ -125,7 +125,7 @@ const SignInPage = () => {
         {/* Signup Link */}
         <div className="mt-6 text-center">
           <p className="text-gray-600">
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <Link href={"/signup"} className="text-[#FF653F] font-bold hover:underline">
               Sign up here
             </Link>

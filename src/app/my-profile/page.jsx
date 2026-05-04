@@ -12,7 +12,7 @@ const MyProfilePage = async () => {
   const user = session?.user;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4">
+    <div className="min-h-screen bg-linear-to-br from-gray-50 to-gray-100 py-12 px-4">
       <div className="max-w-2xl mx-auto">
         {/* Back Button */}
         <Link href="/" className="inline-flex items-center gap-2 text-[#FF653F] font-semibold mb-8 hover:gap-3 transition-all">
@@ -32,7 +32,7 @@ const MyProfilePage = async () => {
           {/* Profile Card */}
           <Card className="border border-gray-200 rounded-2xl overflow-hidden shadow-lg bg-white">
             {/* Header Background */}
-            <div className="h-32 bg-gradient-to-r from-[#FF653F] to-[#FF8555]"></div>
+            <div className="h-32 bg-linear-to-r from-[#FF653F] to-[#FF8555]"></div>
 
             {/* Profile Content */}
             <div className="px-8 py-8 -mt-16 relative z-10">
@@ -78,11 +78,11 @@ const MyProfilePage = async () => {
               {/* Actions */}
               <div className="space-y-4">
                 <div className="flex items-center gap-4 p-4 bg-blue-50 rounded-lg border border-blue-100">
-                  <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-blue-600 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-blue-900">You're all set!</p>
+                    <p className="font-semibold text-blue-900">You&apos;re all set!</p>
                     <p className="text-sm text-blue-700">Your profile is up to date</p>
                   </div>
                 </div>

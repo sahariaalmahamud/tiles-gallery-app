@@ -89,6 +89,9 @@ const Footer = () => {
               <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
                  Rajshahi
               </li>
+              <li className="hover:text-[#FF653F] transition-colors cursor-pointer">
+                 Rangpur
+              </li>
             </ul>
           </div>
 

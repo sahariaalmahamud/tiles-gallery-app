@@ -11,7 +11,7 @@ import {
   TextField,
 } from "@heroui/react";
 import Link from "next/link";
-import { FaGoogle } from "react-icons/fa";
+import { FaBolt, FaGoogle, FaLock, FaStar } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 const SignInPage = () => {
@@ -134,16 +134,16 @@ const SignInPage = () => {
 
         {/* Features */}
         <div className="mt-10 grid grid-cols-3 gap-4 text-center text-xs text-gray-600">
-          <div className="space-y-2">
-            <div className="text-lg">🔒</div>
+          <div className="space-y-2 flex items-center justify-center flex-col">
+            <div className="text-lg"><FaLock /></div>
             <p>Secure</p>
           </div>
-          <div className="space-y-2">
-            <div className="text-lg">⚡</div>
+          <div className="space-y-2 flex items-center justify-center flex-col">
+            <div className="text-lg"><FaBolt /></div>
             <p>Fast</p>
           </div>
-          <div className="space-y-2">
-            <div className="text-lg">✨</div>
+          <div className="space-y-2 flex items-center justify-center flex-col">
+            <div className="text-lg"><FaStar /></div>
             <p>Easy</p>
           </div>
         </div>

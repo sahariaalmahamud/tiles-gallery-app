@@ -2,11 +2,11 @@
 
 import { Button } from "@heroui/react";
 import Link from "next/link";
-import BannerImg1 from "@/assets/b1.jpg";
-import BannerImg2 from "@/assets/b2.jpg";
-import BannerImg3 from "@/assets/b3.jpg";
-import BannerImg4 from "@/assets/b4.jpg";
-import BannerImg5 from "@/assets/b5.jpg";
+import BannerImg1 from "@/assets/h1.jpg";
+import BannerImg2 from "@/assets/h2.jpg";
+import BannerImg3 from "@/assets/h3.jpg";
+import BannerImg4 from "@/assets/h4.jpg";
+import BannerImg5 from "@/assets/h5.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
@@ -26,7 +26,7 @@ const bannerImages = [
 
 const Banner = () => {
   return (
-    <div className="relative w-full overflow-hidden rounded-3xl">
+    <div className="relative w-full overflow-hidden rounded-3xl mt-6">
       <Swiper
         modules={[Autoplay, EffectFade, Pagination]}
         slidesPerView={1}

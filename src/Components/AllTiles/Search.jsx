@@ -56,7 +56,7 @@ const Search = ({ tiles }) => {
           <div className="flex flex-col md:flex-row gap-4 items-end">
             <div className="flex-1">
               <label className="block text-sm font-bold text-[#0b0031] mb-3 uppercase tracking-wide">
-                🔍 Search Tiles
+                 Search Tiles
               </label>
               <div className="relative">
                 <div className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#FF653F]">
